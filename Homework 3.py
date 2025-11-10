@@ -100,7 +100,8 @@ def z_score(x, mu, sigma):
     """
     
     # Participating group member names go in this comment
-    
+    # Group members: Elias Torres, Dane Terry, China Thompson-Stover
     # Your code goes between this comment and the return statement
-    
-    return # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
+    z = (x - mu) / sigma
+
+    return z # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
